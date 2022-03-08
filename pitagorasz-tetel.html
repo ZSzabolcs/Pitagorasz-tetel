@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="hu">
+        <head>
+
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="stylesheet" style="text/css" href="pitagorasz-tetel.css">
+
+            <title>Pitagorasz-tétel</title>
+        </head>
+        <body>
+            <img src="haromszog.png" alt="Háromszög" title="Háromszög">
+            <br>
+            <input type="number" placeholder="a=" id="a" required>
+            <br>
+            <input type="number" placeholder="b=" id="b" required>
+            <br>
+            <button onclick="kiszamol(a.value, b.value)">
+                Kiszámol
+            </button>
+            <script>
+                function kiszamol(a, b)
+                {
+                    var c = 0;
+                    c = Math.sqrt(a*a+b*b)
+                    alert(c)
+                }
+            </script>
+        </body>
+    </html>

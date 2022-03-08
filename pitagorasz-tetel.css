@@ -1,0 +1,22 @@
+body
+{
+    background-color: lightyellow;
+}
+
+img
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input
+{
+    height: 40px;
+    width: 720px;
+}
+
+button
+{
+    height: 30px;
+    width: 300px;
+}
